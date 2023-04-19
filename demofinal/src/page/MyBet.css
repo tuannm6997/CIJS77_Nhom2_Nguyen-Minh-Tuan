@@ -1,0 +1,134 @@
+.myBet {
+  background-image: url("../image/background4.png");
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 100vh;
+  flex-wrap: wrap;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.MyBetComponent {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.562);
+  margin-bottom: 2px;
+  height: fit-content;
+}
+.user-bet {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.user-balance {
+  width: 30%;
+}
+.match-bet {
+  width: 50%;
+}
+.matchComponentBet {
+  margin-bottom: 20px;
+}
+.MyBetComponent-header {
+  color: black;
+  padding-bottom: 10px;
+}
+.MyBetComponent-info {
+  text-align: center;
+  font-size: 20px;
+}
+.match-header {
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  padding: 0 12px;
+}
+.match-main {
+  background-color: #fff;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.avatars {
+  width: 17%;
+  height: auto;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.width1 {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.width2 {
+  width: 45%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.value-bet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 10%;
+}
+.strong {
+  font-weight: 600;
+}
+.small {
+  font-size: 13px;
+  color: gray;
+}
+.rate1 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.bet-header {
+  display: flex;
+  justify-content: space-around;
+}
+.bet-main {
+  width: 49%;
+  text-align: center;
+}
+.user-balance {
+}
+.balance-header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(32, 185, 32, 0.411);
+  padding-left: 20px;
+  font-weight: 600;
+  font-size: 30px;
+  color: white;
+}
+.flex-balance {
+  background-color: rgba(255, 255, 255, 0.589);
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.balance-comp {
+  line-height: 50px;
+}
+.balance-text {
+  color: rgb(29, 28, 28);
+}
+.balance-value {
+  font-size: 30px;
+}
